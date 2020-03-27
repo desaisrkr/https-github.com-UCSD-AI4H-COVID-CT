@@ -3,9 +3,9 @@ The COVID-CT-Dataset has 275 CT images containing clinical findings of COVID-19.
 
 If you find this dataset useful, please cite:
 
-@article{zhao2020COVID-CT-Dataset,
-  title={COVID-CT-Dataset: a CT scan dataset about COVID-19},
-  author={Zhao, Jinyu and Zhang, Yichen and Xie, Pengtao},
-  journal={ https://github.com/UCSD-AI4H/COVID-CT}, 
-  year={2020}
-}
+    @article{zhao2020COVID-CT-Dataset,
+      title={COVID-CT-Dataset: a CT scan dataset about COVID-19},
+      author={Zhao, Jinyu and Zhang, Yichen and Xie, Pengtao},
+      journal={ https://github.com/UCSD-AI4H/COVID-CT}, 
+      year={2020}
+    }
