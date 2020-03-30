@@ -24,13 +24,13 @@ Patients distribution
 
 
 ## Training and Evaluation
-   In [108]
+   In [108] of the script
 
 ## Evaluation and Test
-   In [109]
+   In [109] of the script. Do a 10 major vote.
 
 ### Steps for training
-   Follow the scripts
+   Follow the script
 
 ## Initial result
    F1:0.85 AUC:0.82
