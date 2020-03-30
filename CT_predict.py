@@ -449,9 +449,10 @@ model = DenseNetModel().to(device)
 # print(model)
 
 
-# In[113]:
+# In[ ]:
 
 
+# valiation
 # 1dense
 bs = 4
 import warnings
@@ -465,7 +466,7 @@ AUC_list = []
 # TN = 0
 # FN = 0
 # FP = 0
-test_loader = val_dataloader
+val_loader = val_dataloader
 vote_pred = np.zeros((1,len(val_dataloader.dataset)))
 
 #optimizer = optim.SGD(model.parameters(), lr=0.001, momentum = 0.9)
