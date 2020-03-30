@@ -15,12 +15,29 @@ The main requirements are listed below:
 
 
 # Dataset Split
+Images distribution
+|  Type | Normal | COVID-19 |  Total |
+|:-----:|:------:|:--------:|:------:|
+| train |  146   |    182   |   328  |
+|  val  |   15   |     57   |    73  |
+|  test |   34   |     35   |    69  |
+
 Patients distribution
 |  Type | Normal | COVID-19 |  Total |
 |:-----:|:------:|:--------:|:------:|
-| train |  146   |    183   |   329  |
-|  val  |   15   |     57   |    73  |
-|  test |   34   |     35   |    69  |
+| train |    -   |     12   |    -   |
+|  val  |    -   |      3   |    -   |
+|  test |    -   |      5   |    -   |
+
+Patients id:
+train: 12:18  13:9  14:2  15:12  17:20  18:16  19:12  21:8  23:40  24:22  25:11  34: 12
+val: 6:26  16:9  27:22 
+test: 7:4  8:8  10:8  11:3  20:12
+Max CT scans per patient: 40
+Average CT scans per patient: 13.7
+Max CT scans per patient: 2
+
+
 
 
 ## Training and Evaluation
