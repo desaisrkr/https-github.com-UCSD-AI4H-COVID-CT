@@ -35,7 +35,7 @@ Patients id:
 * test: 7:4  8:8  10:8  11:3  20:12
 * Max CT scans per patient: 40
 * Average CT scans per patient: 13.8
-* Max CT scans per patient: 2
+* Min CT scans per patient: 2
 
 
 
