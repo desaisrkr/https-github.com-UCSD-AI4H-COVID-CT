@@ -346,6 +346,7 @@ def test(epoch):
 #         print('acc',acc)
 #         AUC = roc_auc_score(targetlist, predlist)
 #         print('AUC', AUC)
+##        AUC estimate
        
     val_loss /= len(test_loader.dataset)
     
