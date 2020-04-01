@@ -1,1 +1,2 @@
 NonCOVID-CT-Images.zip filter=lfs diff=lfs merge=lfs -text
+CT_NonCOVID filter=lfs diff=lfs merge=lfs -text
