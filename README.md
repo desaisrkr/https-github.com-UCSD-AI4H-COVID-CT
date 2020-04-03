@@ -1,6 +1,6 @@
 # COVID-CT
 
-# (We are preparing the negative CT images and will add soon.)
+## (We are preparing the negative CT images and will add soon.)
 
 The COVID-CT-Dataset has 288 CT images containing clinical findings of COVID-19. We are continuously adding more COVID CTs.
 
