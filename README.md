@@ -2,7 +2,7 @@
 
 ## (We are preparing the negative CT images and will add soon.)
 
-UPDATE: We start to include papers from LANCET,JAMA,BMJ and NEJM. 66 images were added into COVID-CT-Images.zip so far.
+**UPDATE**: We start to include images from LANCET, JAMA, BMJ and NEJM. 66 new COVID-19 CTs were added into COVID-CT-Images.zip
 
 The COVID-CT-Dataset has 358 CT images containing clinical findings of COVID-19. We are continuously adding more COVID CTs.
 
