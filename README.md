@@ -3,7 +3,9 @@
 
 **We are continuously adding new COVID CT images and we would like to invite the community to contribute COVID CTs as well.**
 
-The COVID-CT-Dataset has 357 CT images containing clinical findings of COVID-19. They are in ./Images-processed/CT_COVID.zip  Non-COVID CT scans are in ./Images-processed/CT_NonCOVID.zip
+The COVID-CT-Dataset has 357 CT images containing clinical findings of COVID-19. They are in ./Images-processed/CT_COVID.zip 
+
+Non-COVID CT scans are in ./Images-processed/CT_NonCOVID.zip
 
 We provide a data split in ./Data-split
 
