@@ -1,6 +1,6 @@
 # COVID-CT
 
-## (We are preparing the negative CT images and will add soon.)
+## (The negative CT images have been added to repo ''Images-processed'' and we will provide a Meta datafile soon.)
 
 **UPDATE**: We start to include images from LANCET, JAMA, BMJ and NEJM. 66 new COVID-19 CTs were added into COVID-CT-Images.zip
 
