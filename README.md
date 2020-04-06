@@ -8,7 +8,7 @@
  - In `COVID-CT-MetaInfo.xlsx`, images with the form of `2020.mm.dd.xxxx` are crawled from bioRxiv or medRxiv. The DOIs for these preprints are `10.1101/2020.mm.dd.xxxx`.
  
 
-### Description
+### Data Description
 
 The COVID-CT-Dataset has 349 CT images containing clinical findings of COVID-19. They are in ./Images-processed/CT_COVID.zip 
 
@@ -20,6 +20,10 @@ The meta information (e.g., patient ID, DOI, image caption) is in COVID-CT-MetaI
 
 
 The images are collected from COVID19-related papers from medRxiv, bioRxiv, NEJM, JAMA, Lancet, etc. CTs containing COVID-19 abnormalities are selected by reading the figure captions in the papers. All copyrights of the data belong to the authors and publishers of these papers.
+
+### Baseline Performance
+We developed a baseline method for the community to benchmark with.
+The details are in (README for DenseNet_predict.md)[./README for DenseNet_predict.md]
 
 Please refer to the preprint for details: [COVID-CT-Dataset: A CT Scan Dataset about COVID-19](https://arxiv.org/pdf/2003.13865.pdf)
 
