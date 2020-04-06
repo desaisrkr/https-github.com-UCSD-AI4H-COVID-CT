@@ -586,7 +586,7 @@ vote_score = np.zeros(valset.__len__())
 #optimizer = optim.SGD(model.parameters(), lr=0.001, momentum = 0.9)
 optimizer = optim.Adam(model.parameters(), lr=0.0001)
 scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10)
-scheduler = StepLR(optimizer, step_size=1)
+#scheduler = StepLR(optimizer, step_size=1)
 
 total_epoch = 3000
 for epoch in range(1, total_epoch+1):
