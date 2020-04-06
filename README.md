@@ -2,10 +2,7 @@
 
 
 **We are continuously adding new COVID CT images and we would like to invite the community to contribute COVID CTs as well.**
-### Contribution Guide
- - To contribute to our project, please email your data to jiz077@eng.ucsd.edu with the corresponding meta information (Patient ID, DOI and Captions).
- - We recommend you also extract images from publications or preprints. Make sure the original papers you crawled have different DOIs from those listed in `COVID-CT-MetaInfo.xlsx`.
- - In `COVID-CT-MetaInfo.xlsx`, images with the form of `2020.mm.dd.xxxx` are crawled from bioRxiv or medRxiv. The DOIs for these preprints are `10.1101/2020.mm.dd.xxxx`.
+
  
 
 ### Data Description
@@ -23,11 +20,17 @@ The images are collected from COVID19-related papers from medRxiv, bioRxiv, NEJM
 
 ### Baseline Performance
 We developed a baseline method for the community to benchmark with.
-The details are in (README for DenseNet_predict.md)[./README for DenseNet_predict.md]
+The details are in [README for DenseNet_predict.md](./README for DenseNet_predict.md)
+
+### Contribution Guide
+ - To contribute to our project, please email your data to jiz077@eng.ucsd.edu with the corresponding meta information (Patient ID, DOI and Captions).
+ - We recommend you also extract images from publications or preprints. Make sure the original papers you crawled have different DOIs from those listed in `COVID-CT-MetaInfo.xlsx`.
+ - In `COVID-CT-MetaInfo.xlsx`, images with the form of `2020.mm.dd.xxxx` are crawled from bioRxiv or medRxiv. The DOIs for these preprints are `10.1101/2020.mm.dd.xxxx`.
+ 
 
 Please refer to the preprint for details: [COVID-CT-Dataset: A CT Scan Dataset about COVID-19](https://arxiv.org/pdf/2003.13865.pdf)
 
-If you find this dataset useful, please cite:
+If you find this dataset and code useful, please cite:
 
     @article{zhao2020COVID-CT-Dataset,
       title={COVID-CT-Dataset: a CT scan dataset about COVID-19},
