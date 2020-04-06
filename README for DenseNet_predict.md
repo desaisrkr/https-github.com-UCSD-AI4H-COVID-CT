@@ -11,8 +11,11 @@ The main requirements are listed below:
 * Numpy
 * OpenCV
 * Scikit-Learn
-* Matplotlib
+* skimage
 
+# Dataset Split
+
+See Data-split. Patient distribution in each set will be updated soon.
 <!---
 # Dataset Split
 Images distribution
@@ -44,7 +47,7 @@ Patients frequency ('ID:number')
    In [145] of the script. Do a 10 major vote.
 
 ### Steps for training
-   Follow the script
+   Follow the script, can either train from scratch or do transfer learning. 
 
 ## Initial result
    See test_Dense169.txt
