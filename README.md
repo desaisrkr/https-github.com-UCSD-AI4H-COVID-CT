@@ -20,7 +20,7 @@ The images are collected from COVID19-related papers from medRxiv, bioRxiv, NEJM
 
 ### Baseline Performance
 We developed a baseline method for the community to benchmark with.
-The details are in [README for DenseNet_predict.md](./README for DenseNet_predict.md)
+The details are in README for DenseNet_predict.md
 
 ### Contribution Guide
  - To contribute to our project, please email your data to jiz077@eng.ucsd.edu with the corresponding meta information (Patient ID, DOI and Captions).
