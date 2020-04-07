@@ -27,11 +27,13 @@ Images distribution
 |  test |   34   |     35   |    69  |
 --->
 Patients distribution
-|  Type | NonCOVID-19 | COVID-19 |  Total |
-|:-----:|:-----------:|:--------:|:------:|
-| train |      -      |  1-130   |    -   |
-|  val  |      -      | 131-162  |    -   |
-|  test |      -      | 163-216  |    -   |
+|  Type |    NonCOVID-19   | COVID-19 |  Total |
+|:-----:|:----------------:|:--------:|:------:|
+| train |  See data_split  |  1-130   |    -   |
+|  val  |  See data_split  | 131-162  |    -   |
+|  test |  See data_split  | 163-216  |    -   |
+
+
 <!---
 * Max CT scans per patient: 40
 * Average CT scans per patient: 13.8
