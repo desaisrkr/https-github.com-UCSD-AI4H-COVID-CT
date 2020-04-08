@@ -13,23 +13,28 @@ The main requirements are listed below:
 * Scikit-Learn
 * skimage
 
-# Dataset Split
-
-See Data-split. Patient distribution in each set will be updated soon.
 <!---
 # Dataset Split
+See Data-split. Patient distribution in each set will be updated soon.
+--->
+# Dataset Split
+<!---
 Images distribution
 |  Type | Normal | COVID-19 |  Total |
 |:-----:|:------:|:--------:|:------:|
 | train |  146   |    182   |   328  |
 |  val  |   15   |     58   |    73  |
 |  test |   34   |     35   |    69  |
+--->
 Patients distribution
-|  Type | Normal | COVID-19 |  Total |
-|:-----:|:------:|:--------:|:------:|
-| train |    -   |     12   |    -   |
-|  val  |    -   |      3   |    -   |
-|  test |    -   |      5   |    -   |
+|  Type |    NonCOVID-19   | COVID-19 |  Total |
+|:-----:|:----------------:|:--------:|:------:|
+| train |  See data_split  |  1-130   |    -   |
+|  val  |  See data_split  | 131-162  |    -   |
+|  test |  See data_split  | 163-216  |    -   |
+
+
+<!---
 * Max CT scans per patient: 40
 * Average CT scans per patient: 13.8
 * Min CT scans per patient: 2
