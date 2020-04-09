@@ -7,20 +7,20 @@
 
 ### Data Description
 
-The COVID-CT-Dataset has 349 CT images containing clinical findings of COVID-19. They are in ./Images-processed/CT_COVID.zip 
+The COVID-CT-Dataset has 349 CT images containing clinical findings of COVID-19. They are in `./Images-processed/CT_COVID.zip`
 
-Non-COVID CT scans are in ./Images-processed/CT_NonCOVID.zip
+Non-COVID CT scans are in `./Images-processed/CT_NonCOVID.zip`
 
-We provide a data split in ./Data-split
+We provide a data split in `./Data-split`
 
-The meta information (e.g., patient ID, DOI, image caption) is in COVID-CT-MetaInfo.xlsx
+The meta information (e.g., patient ID, DOI, image caption) is in `COVID-CT-MetaInfo.xlsx`
 
 
 The images are collected from COVID19-related papers from medRxiv, bioRxiv, NEJM, JAMA, Lancet, etc. CTs containing COVID-19 abnormalities are selected by reading the figure captions in the papers. All copyrights of the data belong to the authors and publishers of these papers.
 
 ### Baseline Performance
 We developed a baseline method for the community to benchmark with.
-The details are in README for DenseNet_predict.md
+The details are in README for `DenseNet_predict.md`
 
 ### Contribution Guide
  - To contribute to our project, please email your data to jiz077@eng.ucsd.edu with the corresponding meta information (Patient ID, DOI and Captions).
