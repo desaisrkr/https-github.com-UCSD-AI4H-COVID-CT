@@ -34,10 +34,11 @@ Patients distribution
 |  test |  See data_split  | 163-216  |    -   |
 
 
+
+* Max CT scans per patient in COVID: 16.0 (patient 2)
+* Average CT scans per patient in COVID: 1.6
+* Min CT scans per patient in  COVID: 1.0
 <!---
-* Max CT scans per patient: 40
-* Average CT scans per patient: 13.8
-* Min CT scans per patient: 2
 Patients frequency ('ID:number')
 * train: 12:18  13:9  14:2  15:12  17:20  18:16  19:12  21:8  23:40  24:22  25:11  34:12
 * val: 6:26  16:10  27:22 
