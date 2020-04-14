@@ -19,19 +19,20 @@ See Data-split. Patient distribution in each set will be updated soon.
 --->
 # Dataset Split
 <!---
-Images distribution
-|  Type | Normal | COVID-19 |  Total |
-|:-----:|:------:|:--------:|:------:|
-| train |  146   |    182   |   328  |
-|  val  |   15   |     58   |    73  |
-|  test |   34   |     35   |    69  |
 --->
+Images distribution
+|  Type | NonCOVID-19 | COVID-19 |  Total |
+|:-----:|:-----------:|:--------:|:------:|
+| train |      234    |    191   |   425  |
+|  val  |       58    |     60   |   118  |
+|  test |      105    |     98   |   203  |
+
 Patients distribution
 |  Type |    NonCOVID-19   | COVID-19 |  Total |
 |:-----:|:----------------:|:--------:|:------:|
-| train |  See data_split  |  1-130   |    -   |
-|  val  |  See data_split  | 131-162  |    -   |
-|  test |  See data_split  | 163-216  |    -   |
+| train |        105       |  1-130   |   235  |
+|  val  |         24       | 131-162  |    56  |
+|  test |         42       | 163-216  |    96   |
 
 
 
