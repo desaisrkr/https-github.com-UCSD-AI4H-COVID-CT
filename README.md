@@ -11,7 +11,8 @@ The COVID-CT-Dataset has 349 CT images containing clinical findings of COVID-19.
 
 Non-COVID CT scans are in `./Images-processed/CT_NonCOVID.zip`
 
-We provide a data split in `./Data-split`
+We provide a data split in `./Data-split`.
+Data split information see `README for DenseNet_predict.md`
 
 The meta information (e.g., patient ID, DOI, image caption) is in `COVID-CT-MetaInfo.xlsx`
 
