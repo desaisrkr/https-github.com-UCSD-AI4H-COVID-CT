@@ -92,13 +92,7 @@ Recurrence-of-positive-SARS-CoV-2-RNA-in-C_2020_International-Journal-of-Inf-p1-
 Talaromyces-marneffei-infection-relapse-presenting-as-ost_2020_International-p1-12%0.png
 Talaromyces-marneffei-infection-relapse-presenting-as-ost_2020_International-p1-12%1.png
 Talaromyces-marneffei-infection-relapse-presenting-as-ost_2020_International-p1-12%2.png
-<<<<<<< HEAD
-kjr-21-e24-p3-16.png
-kjr-21-e24-p5-29.png
-kjr-21-e24-p5-31.png
-=======
 Talaromyces-marneffei-infection-relapse-presenting-as-ost_2020_International-p1-12%3.png
 kjr-21-e24-p3-16.png
 kjr-21-e24-p5-29.png
 kjr-21-e24-p5-31.png
->>>>>>> c224644822838e70b8f13b4ba90aa239ced992f7
