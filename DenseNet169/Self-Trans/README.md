@@ -28,7 +28,7 @@ The MoCo method thanks to the work in
       year    = {2020},
     }
 
-The code of the MoCo part can refer to https://github.com/facebookresearch/moco[https://github.com/facebookresearch/moco]
+The code of the MoCo part can refer to [https://github.com/facebookresearch/moco](https://github.com/facebookresearch/moco)
 
  
 
