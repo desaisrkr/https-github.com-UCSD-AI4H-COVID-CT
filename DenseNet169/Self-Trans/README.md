@@ -4,8 +4,10 @@
 **We provide our current best model `Self-Trans` in this repo**
 
 The `Self-Trans` model are trained by two steps:
+
 First step: Call main.py to run MoCo on LUNA dataset. Then change the dataset to COVID-CT and run MoCo on COVID-CT. To do MoCo correctly, you need to change the path for dataset in line 48 and 238 of `main_coco.py`. You may need 4 or 8 GPUs to do this.
-Second stop: Load MoCo pretrained model in line 17 of `CT_predict-efficient-pretrain.ipynb` and do training.
+
+Second step: Load MoCo pretrained model in line 17 of `CT_predict-efficient-pretrain.ipynb` and do training.
  
 
 ### How to use our Pretrained model
