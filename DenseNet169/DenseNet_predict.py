@@ -64,35 +64,7 @@ from skimage.io import imread, imsave
 import skimage
 
 torch.cuda.empty_cache()
-# BORDER_CONSTANT = 0
-# BORDER_REFLECT = 2
-# crop_size = 224
-# scale_size = crop_size * 4
 
-# transforms = albu.Compose([
-#   albu.LongestMaxSize(max_size=scale_size),
-#   albu.PadIfNeeded(scale_size, scale_size, border_mode=BORDER_CONSTANT),
-#   albu.RandomCrop(crop_size, crop_size),
-#   albu.OneOf([
-#     albu.ShiftScaleRotate( 
-#       shift_limit=0.1,
-#       scale_limit=0.1,
-#       rotate_limit=15,
-#       border_mode=BORDER_REFLECT,
-#       p=0.5
-#     ),
-#     albu.Flip(p=0.5),
-#     albu.RandomRotate90(p=0.5),     
-#   ]),
-#   albu.IAAPerspective(scale=(0.02, 0.05), p=0.3),
-#   albu.JpegCompression(quality_lower=80),
-#   ToTensor()
-# ])
-
-# transforms_fn = Augmentor(
-#     dict_key="PA",
-#     augment_fn=lambda x: transforms(image=x[0][:, :, None])["image"]
-# )
 
 
 # In[2]:
@@ -213,9 +185,6 @@ if __name__ == '__main__':
 # In[154]:
 
 
-from torch.utils.tensorboard import SummaryWriter
-writer = SummaryWriter()
-
 alpha = None
 device = 'cuda'
 def train(optimizer, epoch):
@@ -314,9 +283,6 @@ def val(epoch):
            
           
     return targetlist, scorelist, predlist
-    
-    # Write to tensorboard
-#     writer.add_scalar('Test Accuracy', 100.0 * correct / len(test_loader.dataset), epoch)
 
 
 # In[152]:

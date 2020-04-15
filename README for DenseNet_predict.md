@@ -11,25 +11,35 @@ The main requirements are listed below:
 * Numpy
 * OpenCV
 * Scikit-Learn
-* Matplotlib
+* skimage
 
 <!---
 # Dataset Split
+See Data-split. Patient distribution in each set will be updated soon.
+--->
+# Dataset Split
+<!---
+--->
 Images distribution
-|  Type | Normal | COVID-19 |  Total |
-|:-----:|:------:|:--------:|:------:|
-| train |  146   |    182   |   328  |
-|  val  |   15   |     58   |    73  |
-|  test |   34   |     35   |    69  |
+|  Type | NonCOVID-19 | COVID-19 |  Total |
+|:-----:|:-----------:|:--------:|:------:|
+| train |      234    |    191   |   425  |
+|  val  |       58    |     60   |   118  |
+|  test |      105    |     98   |   203  |
+
 Patients distribution
-|  Type | Normal | COVID-19 |  Total |
-|:-----:|:------:|:--------:|:------:|
-| train |    -   |     12   |    -   |
-|  val  |    -   |      3   |    -   |
-|  test |    -   |      5   |    -   |
-* Max CT scans per patient: 40
-* Average CT scans per patient: 13.8
-* Min CT scans per patient: 2
+|  Type |    NonCOVID-19   | COVID-19 |  Total |
+|:-----:|:----------------:|:--------:|:------:|
+| train |        105       |  1-130   |   235  |
+|  val  |         24       | 131-162  |    56  |
+|  test |         42       | 163-216  |    96   |
+
+
+
+* Max CT scans per patient in COVID: 16.0 (patient 2)
+* Average CT scans per patient in COVID: 1.6
+* Min CT scans per patient in  COVID: 1.0
+<!---
 Patients frequency ('ID:number')
 * train: 12:18  13:9  14:2  15:12  17:20  18:16  19:12  21:8  23:40  24:22  25:11  34:12
 * val: 6:26  16:10  27:22 
@@ -44,7 +54,7 @@ Patients frequency ('ID:number')
    In [145] of the script. Do a 10 major vote.
 
 ### Steps for training
-   Follow the script
+   Follow the script, can either train from scratch or do transfer learning. 
 
 ## Initial result
    See test_Dense169.txt
