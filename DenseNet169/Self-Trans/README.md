@@ -1,4 +1,4 @@
-# COVID-CT
+# Self-Trans 
 
 
 **We provide our current best model `Self-Trans` in this repo**
