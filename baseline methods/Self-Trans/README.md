@@ -28,7 +28,9 @@ We provide an example notebook file `CT_predict-efficient-pretrain.ipynb`, the p
 
 ### Results
 F1: 0.85
+
 Accuracy: 0.86
+
 AUC: 0.94
 
 ### Reference 
