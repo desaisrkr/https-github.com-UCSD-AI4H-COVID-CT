@@ -18,6 +18,12 @@ The MoCO code is run on four GTX1080Ti with batch size 128. The pretrained model
 ### Dataset
 Use the split in `Data-split`.
 
+### Results
+F1: 0.85
+
+Accuracy: 0.86
+
+AUC: 0.94
 
 ### Pretrained model
 See `Self-Trans.pt` with DenseNet-169 backbone.
@@ -26,12 +32,6 @@ See `Self-Trans.pt` with DenseNet-169 backbone.
 ### How to use our Pretrained model
 We provide an example notebook file `CT_predict-efficient-pretrain.ipynb`, the pretrained model is loaded in [30] . Change the name and path to our provided Self-Trans.pt to load correctly. The model achieves an F1-score of 0.85 on the test set.
 
-### Results
-F1: 0.85
-
-Accuracy: 0.86
-
-AUC: 0.94
 
 ### Reference 
 The details of this approach are described in this [preprint](https://www.medrxiv.org/content/10.1101/2020.04.13.20063941v1).
