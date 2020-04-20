@@ -31,8 +31,8 @@ If you find this dataset and code useful, please cite:
     }
 
 ### Baseline Performance
-We developed a baseline method for the community to benchmark with.
-The details are in README for `DenseNet_predict.md`
+We developed two baseline methods for the community to benchmark with.
+The code are in the "baseline methods" folder and the details are in the readme files under that folder.
 
 ### Contribution Guide
  - To contribute to our project, please email your data to jiz077@eng.ucsd.edu with the corresponding meta information (Patient ID, DOI and Captions).
