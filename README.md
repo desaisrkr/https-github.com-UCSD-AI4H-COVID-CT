@@ -32,7 +32,17 @@ If you find this dataset and code useful, please cite:
 
 ### Baseline Performance
 We developed two baseline methods for the community to benchmark with.
-The code are in the "baseline methods" folder and the details are in the readme files under that folder.
+The code are in the "baseline methods" folder and the details are in the readme files under that folder. The methods are described in [Sample-Efficient Deep Learning for COVID-19 Diagnosis Based on CT Scans](https://www.medrxiv.org/content/10.1101/2020.04.13.20063941v1)
+
+If you find the code useful, please cite:
+
+    @Article{he2020sample,
+      author  = {He, Xuehai and Yang, Xingyi and Zhang, Shanghang, and Zhao, Jinyu and Zhang, Yichen and Xing, Eric, and Xie,       Pengtao},
+      title   = {Sample-Efficient Deep Learning for COVID-19 Diagnosis Based on CT Scans},
+      journal = {medrxiv},
+      year    = {2020},
+    }
+
 
 ### Contribution Guide
  - To contribute to our project, please email your data to jiz077@eng.ucsd.edu with the corresponding meta information (Patient ID, DOI and Captions).
