@@ -26,14 +26,21 @@ See `Self-Trans.pt` with DenseNet-169 backbone.
 ### How to use our Pretrained model
 We provide an example notebook file `CT_predict-efficient-pretrain.ipynb`, the pretrained model is loaded in [30] . Change the name and path to our provided Self-Trans.pt to load correctly. The model achieves an F1-score of 0.85 on the test set.
 
+### Results
+F1: 0.85
+Accuracy: 0.86
+AUC: 0.94
 
 ### Reference 
-The MoCo method thanks to the work in 
+The details of this approach are described in this [preprint](https://www.medrxiv.org/content/10.1101/2020.04.13.20063941v1).
 
-    @Article{chen2020mocov2,
-      author  = {Xinlei Chen and Haoqi Fan and Ross Girshick and Kaiming He},
-      title   = {Improved Baselines with Momentum Contrastive Learning},
-      journal = {arXiv preprint arXiv:2003.04297},
+If you find the code useful, please cite:
+
+
+    @Article{he2020sample,
+      author  = {He, Xuehai and Yang, Xingyi and Zhang, Shanghang, and Zhao, Jinyu and Zhang, Yichen and Xing, Eric, and Xie, Pengtao},
+      title   = {Sample-Efficient Deep Learning for COVID-19 Diagnosis Based on CT Scans},
+      journal = {medrxiv},
       year    = {2020},
     }
 
