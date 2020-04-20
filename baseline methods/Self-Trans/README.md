@@ -16,7 +16,11 @@ The MoCO code is run on four GTX1080Ti with batch size 128. The pretrained model
 
 
 ### Dataset
-Use the split in `Data-split`.
+Use the split in `Data-split`. 
+To generate the dataset for training and testing, 
+1. Download images from repo `Images-processed`
+2. Download txt files for image names in train, val, and test set from Data-split repo
+3. Use the dataloader defined in line [5] of the script `CT_predict-efficient-pretrain.ipynb` and load the dataset
 
 ### Results
 F1: 0.85
