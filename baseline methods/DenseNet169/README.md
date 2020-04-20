@@ -22,7 +22,7 @@ See Data-split. Patient distribution in each set will be updated soon.
 --->
 # Steps to generate the dataset used to do Training and Testing
 1. Download images from repo `Images-processed`
-2. Download txt files for image names in train, val, and test set from Data-split repo
+2. Download txt files for image names in train, val, and test set from `Data-split` repo
 3. Use the dataloader defined in line `80` of the script `DenseNet_predict.py` and load the dataset
 
 
