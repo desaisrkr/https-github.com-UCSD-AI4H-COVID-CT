@@ -1,3 +1,7 @@
+# DenseNet169 baseline
+
+We provide here the PyTorch training script to train and test the model in this repo.
+
 ## Requirements
 
 The main requirements are listed below:
@@ -6,7 +10,6 @@ The main requirements are listed below:
 * re
 * skimage
 * torchvision
-* OpenCV 4.2.0
 * Python 3.6
 * Numpy
 * OpenCV
@@ -17,7 +20,13 @@ The main requirements are listed below:
 # Dataset Split
 See Data-split. Patient distribution in each set will be updated soon.
 --->
-# Dataset Split
+# Steps to generate the dataset used to do Training and Testing
+1. Download images from repo `Images-processed`
+2. Download txt files for image names in train, val, and test set from Data-split repo
+3. Use the dataloader defined in line `80` of the script `DenseNet_predict.py` and load the dataset
+
+
+# Dataset Distribution
 <!---
 --->
 Images distribution
@@ -48,13 +57,12 @@ Patients frequency ('ID:number')
 
 
 ## Training and Evaluation
-   In [144] of the script
+   In [144] of the script.
+   Train process is defined in line `190` of the script and val process is defined in line `241`. 
+   Loading the pretrained DenseNet model in line `488` and start training in line `535`, can either train from scratch by `pretrain = false` or transfered from the ImageNet pretrained model.  the performance on val set is observed in line `561`. It will predict the target value and the predict value per epoch, and print the F1-score, accuray and AUC of 10 model major vote per 10 epoch. 
 
 ## Test
-   In [145] of the script. Do a 10 major vote.
-
-### Steps for training
-   Follow the script, can either train from scratch or do transfer learning. 
+   In [145] of the script. Line `617`. 
 
 ## Initial result
    See test_Dense169.txt
