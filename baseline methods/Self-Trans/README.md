@@ -21,12 +21,12 @@ The input image to the model will be (N, 224, 224, 3), for DenseNet this will be
        data = data[:, 0, :, :]
        data = data[:, None, :, :] 
        
-(for our CT images, each channel is the same)
+in [8][9][10] for train, val, and test in the fine-tune script [CT-predict-pretrain.ipynb](CT-predict-pretrain.ipynb) (for our CT images, each channel is the same)
 
 ### How to train
 We provide you with the PyTorch MoCo pretraining script [main.py](main.py) and fine-tune script [CT-predict-pretrain.ipynb](CT-predict-pretrain.ipynb)
 
-The `Self-Trans` model are trained by two steps:
+The `Self-Trans` model is trained by two steps:
 
 *First step*: Load the model pretrained on ImageNet. Install the model you want to use, e.g. to use effientNet, call `pip install --upgrade efficientnet-pytorch` to install.  Then locate the [LUNA](LUNA) dataset, change you path in line 48 and 238 of [main_coco.py](main_coco.py), and call `ipython main.py` to run MoCo on `LUNA` dataset. Then run MoCo on `COVID-CT` by change the dataset to `COVID-CT`. To do MoCo, 4 or 8 GPUs are needed. If you use 8 GPUs to train, you need to adjust the preset batch size to 256 (otherwise for 4 GPUs use the default 128).
 
