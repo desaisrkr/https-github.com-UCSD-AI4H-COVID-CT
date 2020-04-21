@@ -61,6 +61,7 @@ Patients frequency ('ID:number')
    Training is defined in line `190` of the script and validation is defined in line `241`. 
    In line `488`, start the loading of DenseNet-169 model and do training in line `535`.
    You can either train by transfering from the ImageNet pretrained model or train from scratch by setting `pretrain = false`.  
+   
    The performance on val set is observed in line `561`. It will print the target value list and the predict value list per epoch. The F1-score, accuray, and AUC of 10 models are printed as a major vote result per 10 epoch. 
 
 ## Test
