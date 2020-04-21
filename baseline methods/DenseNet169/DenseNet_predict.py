@@ -198,8 +198,8 @@ def train(optimizer, epoch):
         
         # move data to device
         data, target = batch_samples['img'].to(device), batch_samples['label'].to(device)
-        data = data[:, 0, :, :]
-        data = data[:, None, :, :]
+#        data = data[:, 0, :, :]
+#        data = data[:, None, :, :]
 #         data, targets_a, targets_b, lam = mixup_data(data, target.long(), alpha, use_cuda=True)
         
         
@@ -263,8 +263,8 @@ def val(epoch):
         # Predict
         for batch_index, batch_samples in enumerate(val_loader):
             data, target = batch_samples['img'].to(device), batch_samples['label'].to(device)
-            data = data[:, 0, :, :]
-            data = data[:, None, :, :]
+#            data = data[:, 0, :, :]
+#            data = data[:, None, :, :]
             output = model(data)
             
             test_loss += criteria(output, target.long())
@@ -313,8 +313,8 @@ def test(epoch):
         # Predict
         for batch_index, batch_samples in enumerate(test_loader):
             data, target = batch_samples['img'].to(device), batch_samples['label'].to(device)
-            data = data[:, 0, :, :]
-            data = data[:, None, :, :]
+#            data = data[:, 0, :, :]
+#            data = data[:, None, :, :]
 #             print(target)
             output = model(data)
             
