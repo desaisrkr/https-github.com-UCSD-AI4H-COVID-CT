@@ -24,13 +24,13 @@ The input image to the model will be (N, 224, 224, 3), for DenseNet this will be
 (for our CT images, each channel is the same)
 
 ### How to train
-We provide you with the PyTorch fine-tune script, [CT-predict-pretrain.ipynb](CT-predict-pretrain.ipynb)
+We provide you with the PyTorch MoCo pretraining script [main.py](main.py) and fine-tune script [CT-predict-pretrain.ipynb](CT-predict-pretrain.ipynb)
 
 The `Self-Trans` model are trained by two steps:
 
-*First step*: Load the model pretrained on ImageNet, to install efficient, call `pip install --upgrade efficientnet-pytorch`.  Call `ipython main.py` to run MoCo on `LUNA` dataset. Then run MoCo on `COVID-CT` by change the path for dataset in line 48 and 238 of `main_coco.py`. To do MoCo, 4 or 8 GPUs are needed. If you use 8 GPUs to train, then adjust the batch size to 256 (otherwise for 4 GPUs use the default 128).
+*First step*: Load the model pretrained on ImageNet. Install the model you want to use, e.g. to use effientNet, call `pip install --upgrade efficientnet-pytorch` to install.  Then locate the [LUNA](LUNA) dataset, change you path in line 48 and 238 of [main_coco.py](main_coco.py), and call `ipython main.py` to run MoCo on `LUNA` dataset. Then run MoCo on `COVID-CT` by change the dataset to `COVID-CT`. To do MoCo, 4 or 8 GPUs are needed. If you use 8 GPUs to train, you need to adjust the preset batch size to 256 (otherwise for 4 GPUs use the default 128).
 
-*Second step*: Load MoCo pretrained model in line [17] of `CT_predict-efficient-pretrain.ipynb` and do training.
+*Second step*: Load MoCo pretrained model in line [17] of `CT_predict-efficient-pretrain.ipynb` and do finetuning.
 
 ### Results
 F1: 0.85
@@ -44,7 +44,7 @@ See `Self-Trans.pt` with DenseNet-169 backbone.
 
 
 ### How to use our Pretrained model
-We provide an example notebook file `CT_predict-efficient-pretrain.ipynb`, the pretrained model is loaded in [30] . Change the name and path to our provided Self-Trans.pt to load correctly. The model achieves an F1-score of 0.85 on the test set.
+We provide an example notebook file `CT_predict-efficient-pretrain.ipynb`, the pretrained model is loaded in [30] . Change the name and path to our provided Self-Trans.pt to load it correctly. The model achieves an F1-score of 0.85 on the test set.
 
 
 ### Reference 
