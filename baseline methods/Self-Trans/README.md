@@ -19,7 +19,7 @@ To generate the dataset for training and testing,
 ### How to train
 The `Self-Trans` model are trained by two steps:
 
-*First step*: Load the model pretrained on ImageNet, to install efficient, call `pip install --upgrade efficientnet-pytorch`.  Call `ipython main.py` to run MoCo on `LUNA` dataset. Then run MoCo on `COVID-CT` by change the path for dataset in line 48 and 238 of `main_coco.py`. To do MoCo, 4 or 8 GPUs are needed.
+*First step*: Load the model pretrained on ImageNet, to install efficient, call `pip install --upgrade efficientnet-pytorch`.  Call `ipython main.py` to run MoCo on `LUNA` dataset. Then run MoCo on `COVID-CT` by change the path for dataset in line 48 and 238 of `main_coco.py`. To do MoCo, 4 or 8 GPUs are needed. If you use 8 GPUs to train, then adjust the batch to 256 (otherwise for 4 GPUs use the default 128).
 
 *Second step*: Load MoCo pretrained model in line [17] of `CT_predict-efficient-pretrain.ipynb` and do training.
 
