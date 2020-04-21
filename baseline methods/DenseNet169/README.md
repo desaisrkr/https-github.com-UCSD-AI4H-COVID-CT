@@ -68,5 +68,7 @@ Patients frequency ('ID:number')
 
 ## Initial result
    F1:  0.854
+   
    ACC: 0.847
+   
    AUC: 0.919
