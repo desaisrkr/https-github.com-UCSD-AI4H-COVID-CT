@@ -10,7 +10,7 @@ The main requirements are listed below:
 * re
 * skimage
 * torchvision
-* Python 3.6
+* Python 3.7
 * Numpy
 * OpenCV
 * Scikit-Learn
@@ -19,6 +19,11 @@ The main requirements are listed below:
 # Dataset Split
 See Data-split. Patient distribution in each set will be updated soon.
 --->
+## Environment
+The code is based on Python 3.7 and PyTorch 1.3.
+The code is run and tested on one GTX1080Ti
+
+
 # Steps to generate the dataset used to do Training and Testing
 1. Download images from repo `Images-processed`
 2. Download txt files for image names in train, val, and test set from `Data-split` repo
