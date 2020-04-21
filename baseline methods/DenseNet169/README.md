@@ -14,7 +14,6 @@ The main requirements are listed below:
 * Numpy
 * OpenCV
 * Scikit-Learn
-* skimage
 
 <!---
 # Dataset Split
@@ -58,11 +57,16 @@ Patients frequency ('ID:number')
 
 ## Training and Evaluation
    In [144] of the script.
-   Train process is defined in line `190` of the script and val process is defined in line `241`. 
-   Loading the pretrained DenseNet model in line `488` and start training in line `535`, can either train from scratch by `pretrain = false` or transfered from the ImageNet pretrained model.  the performance on val set is observed in line `561`. It will predict the target value and the predict value per epoch, and print the F1-score, accuray and AUC of 10 model major vote per 10 epoch. 
+   
+   Training is defined in line `190` of the script and validation is defined in line `241`. 
+   In line `488`, start the loading of DenseNet-169 model and do training in line `535`.
+   You can either train by transfering from the ImageNet pretrained model or train from scratch by setting `pretrain = false`.  
+   The performance on val set is observed in line `561`. It will print the target value list and the predict value list per epoch. The F1-score, accuray, and AUC of 10 models are printed as a major vote result per 10 epoch. 
 
 ## Test
    In [145] of the script. Line `617`. 
 
 ## Initial result
-   See test_Dense169.txt
+   F1:  0.854
+   ACC: 0.847
+   AUC: 0.919
