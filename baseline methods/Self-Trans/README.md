@@ -43,7 +43,7 @@ AUC: 0.94
 <p align="center">
 	<img src="../gradcam.png" alt="photo not available" width="70%" height="70%">
 	<br>
-	<em>    Grad-CAM visualizations</em>
+	<em>    Grad-CAM visualizations for DenseNet-169. From left to right: Column (1) are original images with COVID-19; Column (2-3) are Grad-CAM visualizations for the model trained with random initialization; Column (4-5) are Grad-CAM visualizations for ImageNet pretrained model; Column (6-7) are Grad-CAM visualizations for Self-Trans model.</em>
 </p>
 
 ### Pretrained model
