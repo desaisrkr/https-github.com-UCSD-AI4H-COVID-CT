@@ -39,6 +39,13 @@ Accuracy: 0.86
 
 AUC: 0.94
 
+
+<p align="center">
+	<img src="../gradcam.png" alt="photo not available" width="70%" height="70%">
+	<br>
+	<em>    Grad-CAM visualizations</em>
+</p>
+
 ### Pretrained model
 See `Self-Trans.pt` with DenseNet-169 backbone.
 
