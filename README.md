@@ -1,7 +1,7 @@
 # COVID-CT
 
 
-### The usefulness of this dataset has been confirmed by a senior radiologist in Tongji Hospital, Wuhan, China, who has performed diagnosis and treatment of a large number of COVID-19 patients during the outbreak of this disease between January and April. 
+### The utility of this dataset has been confirmed by a senior radiologist in Tongji Hospital, Wuhan, China, who has performed diagnosis and treatment of a large number of COVID-19 patients during the outbreak of this disease between January and April. 
 
 After releasing this dataset, we received several feedback expressing concerns about the usability of this dataset. The major concerns are summarized as follows. First, when the original CT images are put into papers, the quality of these images are degraded, which may render the diagnosis decisions less accurate. The quality degradation includes: the Hounsfield unit (HU) values are lost; the number of bits per pixel is reduced; the resolution of images is reduced. Second, the original CT scan contains a sequence of CT slices, but when put into papers, only a few key slices are selected, which may have negative impact on diagnosis as well. 
 
